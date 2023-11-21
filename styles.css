@@ -6,23 +6,23 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f7f7f7; /* Cambio del color de fondo a un tono más claro */
-  color: #333;
+  color: #000000;
 }
 
 header {
   background-color: #333;
   color: #fff;
-  text-align: center;
+  text-align: center; /* Centra el contenido del encabezado */
   padding: 1px 0; /* Aumento del espacio alrededor del encabezado */
 }
 
 img {
-  width: 10%; /* La imagen se extiende a lo ancho */
+  max-width: 20%; /* Ajusta el tamaño máximo de la imagen */
   height: auto;
   display: block;
+  margin: 0 auto; /* Centra la imagen horizontalmente */
   object-fit: cover; /* Realiza un recorte a lo largo para ajustar la imagen */
   border-radius: 50%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Aumento del tamaño y la suavidad de la sombra */
 }
 
 main {
@@ -39,6 +39,13 @@ section {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+section:nth-child(odd) {
+  background-color: #B8CAD9; /* Un color para las secciones impares */
+}
+
+section:nth-child(even) {
+  background-color: #1B65A6; /* Un color para las secciones pares */
 }
 
 h1 {
