@@ -61,6 +61,10 @@ h2 {
 p {
   font-size: 16px;
 }
+a{
+  font-size: 16px;
+  color: #DB3C35;
+}
 ul {
   list-style-type: none;
   padding: 0;
