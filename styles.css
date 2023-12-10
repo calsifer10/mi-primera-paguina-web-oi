@@ -11,7 +11,7 @@ body {
 
 header {
   background-color: #333;
-  color: #fff;
+  color: #ffffff;
   text-align: center; /* Centra el contenido del encabezado */
   padding: 1px 0; /* Aumento del espacio alrededor del encabezado */
 }
@@ -29,7 +29,7 @@ main {
   max-width: 800px;
   margin: 20px auto;
   padding: 0 20px;
-  background-color: #fff; /* Fondo blanco para el contenido principal */
+  background-color: #ffffff; /* Fondo blanco para el contenido principal */
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -46,6 +46,7 @@ section:nth-child(odd) {
 
 section:nth-child(even) {
   background-color: #1B65A6; /* Un color para las secciones pares */
+  color: #ffffff;
 }
 
 h1 {
